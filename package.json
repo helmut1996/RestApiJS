@@ -1,0 +1,20 @@
+{
+  "name": "apirest",
+  "version": "1.0.0",
+  "description": "Este es un ejemplo de como implementar una api ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"nodemon index.js"
+  },
+  "author": "helmut colindres",
+  "license": "ISC",
+  "devDependencies": {
+    "body-parser": "^1.20.2",
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql": "^2.18.1"
+  }
+}
